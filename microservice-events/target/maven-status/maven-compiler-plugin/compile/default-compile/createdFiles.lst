@@ -1,0 +1,15 @@
+com\kndoni\event\enumeration\Status.class
+com\kndoni\event\model\Response$ResponseBuilderImpl.class
+com\kndoni\event\model\Transaction.class
+com\kndoni\event\service\implemetation\EventServiceImpl.class
+com\kndoni\event\repo\EventRepo.class
+com\kndoni\event\model\Event$EventBuilder.class
+com\kndoni\event\model\Response$ResponseBuilder.class
+com\kndoni\event\usercommunication\UserClient.class
+com\kndoni\event\repo\TransactionRepo.class
+com\kndoni\event\model\Response.class
+com\kndoni\event\service\EventService.class
+com\kndoni\event\model\Event.class
+com\kndoni\event\amqp\EventConsumer.class
+com\kndoni\event\EventsApplication.class
+com\kndoni\event\controller\EventController.class

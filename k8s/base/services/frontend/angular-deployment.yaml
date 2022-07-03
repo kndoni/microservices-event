@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: event-frontend
+  labels:
+    app: event-frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: event-frontend
+  template:
+    metadata:
+      labels:
+        app: event-frontend
+    spec:
+      containers:
+        - name: event-frontend
+          image: kristi98/frontend
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: frontend-service
+spec:
+  selector:
+    app: event-frontend
+  ports:
+    - port: 80
+  type: NodePort

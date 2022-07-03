@@ -1,0 +1,30 @@
+#server:
+#  port: 8081
+#
+#spring:
+#  application:
+#    name: 'user-service'
+#  security:
+#    user:
+#      name: user
+#      password: user
+#  datasource:
+#    username: kndoni
+#    url: jdbc:postgresql://postgres:5432/user
+#    password: password
+#  jpa:
+#    hibernate:
+#      ddl-auto: create
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.PostgreSQLDialect
+#        format_sql: true
+#    show-sql: true
+#    generate-dll: true
+#  zipkin:
+#    base-url: http://zipkin:9411
+#  feign:
+#    httpclient:
+#      enabled: true
+##  rabbitmq:
+##    addresses: rabbitmq:5672

@@ -1,0 +1,11 @@
+com\kndoni\user\model\User$UserBuilder.class
+com\kndoni\user\config\WebSecurityConfig$1.class
+com\kndoni\user\service\UserDetailsServiceImpl.class
+com\kndoni\user\model\Role.class
+com\kndoni\user\repository\UserRepository.class
+com\kndoni\user\service\UserServiceImpl.class
+com\kndoni\user\controller\UserController.class
+com\kndoni\user\UserApplication.class
+com\kndoni\user\config\WebSecurityConfig.class
+com\kndoni\user\service\UserService.class
+com\kndoni\user\model\User.class
